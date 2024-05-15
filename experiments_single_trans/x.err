@@ -1,0 +1,50 @@
+Traceback (most recent call last):
+  File "/home/w/wmingyu/aro_data/experiments_single_trans/steady_mf.py", line 71, in <module>
+    torch.save(models, aro_path)
+  File "/home/w/wmingyu/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 440, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+  File "/home/w/wmingyu/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 315, in _open_zipfile_writer
+    return container(name_or_buffer)
+  File "/home/w/wmingyu/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 288, in __init__
+    super().__init__(torch._C.PyTorchFileWriter(str(name)))
+RuntimeError: Parent directory /home/w/wmingyu/aro_data/experiments_single_trans/union_low400_high100_1 does not exist.
+Traceback (most recent call last):
+  File "/home/w/wmingyu/aro_data/experiments_single_trans/steady_mf.py", line 40, in <module>
+    models=torch.load(aro_path)
+  File "/home/w/wmingyu/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 791, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/w/wmingyu/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 271, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/w/wmingyu/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 252, in __init__
+    super().__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'union_low400_high100_1/model.pt'
+Traceback (most recent call last):
+  File "/home/w/wmingyu/aro_data/experiments_single_trans/steady_mf.py", line 40, in <module>
+    models=torch.load(aro_path)
+  File "/home/w/wmingyu/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 791, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/w/wmingyu/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 271, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/w/wmingyu/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 252, in __init__
+    super().__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'union_low400_high100_1/model.pt'
+Traceback (most recent call last):
+  File "/home/w/wmingyu/aro_data/experiments_single_trans/steady_mf.py", line 40, in <module>
+    models=torch.load(aro_path)
+  File "/home/w/wmingyu/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 791, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/w/wmingyu/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 271, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/w/wmingyu/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 252, in __init__
+    super().__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'union_low400_high100_1/model.pt'
+Traceback (most recent call last):
+  File "/home/w/wmingyu/aro_data/experiments_single_trans/steady_mf.py", line 40, in <module>
+    models=torch.load(aro_path)
+  File "/home/w/wmingyu/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 791, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/w/wmingyu/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 271, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/w/wmingyu/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/serialization.py", line 252, in __init__
+    super().__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'union_low400_high100_1/model.pt'
