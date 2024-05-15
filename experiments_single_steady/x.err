@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/home/w/wmingyu/aro_data/experiments_single_steady/union_test.py", line 98, in <module>
+    aro.valid_model(x_test_high,y_test_high,model_low,model_res,x_normalizer_low,y_normalizer_low,x_normalizer_res,y_normalizer_res)
+  File "/home/w/wmingyu/aro_data/fourier_mcdropout/fourier_union_3d.py", line 231, in valid_model
+    out_low_mean, out_low_std = model_low.predict(x_low, y_normalizer_low)
+  File "/home/w/wmingyu/aro_data/fourier_mcdropout/fourier_3d.py", line 307, in predict
+    out = self(test_x).reshape(test_x.shape[0],test_x.shape[1],test_x.shape[2],test_x.shape[3])
+  File "/home/w/wmingyu/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/w/wmingyu/aro_data/fourier_mcdropout/fourier_3d.py", line 141, in forward
+    x2 = self.w0(x.view(batch_size, self.width, -1)).view(batch_size, self.width, size_x, size_y, size_z)
+  File "/home/w/wmingyu/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/w/wmingyu/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 613, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/home/w/wmingyu/anaconda3/envs/myenv/lib/python3.9/site-packages/torch/nn/modules/conv.py", line 608, in _conv_forward
+    return F.conv3d(
+RuntimeError: Expected 4D (unbatched) or 5D (batched) input to conv3d, but got input of size: [1, 32, 15138]
