@@ -52,3 +52,7 @@ The structures of documents started by **experiments** are similar, taking **exp
 💎💎💎
 
 https://bhpan.buaa.edu.cn/link/AA817F2A561D544F239DE70DD4EB8066E1
+
+## Docs
+🥳🥳🥳
+The paper is published on [ICCAD’24: Proceedings of the 43rd IEEE/ACM International Conference on Computer-Aided Design.](https://dl.acm.org/doi/pdf/10.1145/3676536.3676713)
